@@ -1,0 +1,18 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper > *{
+  margin: 1rem;
+}
+
+.todo{
+  display: inline-block;
+}
+
+.done-todo{
+  text-decoration: line-through;
+}
