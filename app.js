@@ -1,6 +1,6 @@
 // varieables
 let todoInput = document.querySelector('.todo-input').addEventListener('input', getInputValue);
-let addBtn = document.querySelector('.btn').addEventListener('keyup', addTodoToList);
+let addBtn = document.querySelector('.btn').addEventListener('click', addTodoToList);
 let todoCont = document.querySelector('.todos');
 
 
